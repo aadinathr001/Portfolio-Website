@@ -245,15 +245,62 @@ export interface CertificateItem {
 }
 
 export const CERTIFICATES_DATA: CertificateItem[] = [
+  // badge1
+  // {
+  //   id: "cert-ibm-ai",
+  //   title: "Make Agentic AI Work for You",
+  //   issuer: "IBM SkillsBuild",
+  //   date: "2026",
+  //   credentialId: "PWID-B1039700",
+  //   skills: ["AI Agents", "Generative AI", "RAG", "AI Prompting Techniques"],
+  //   verificationUrl: "https://www.credly.com/badges/65279f45-8927-48e4-bcb2-a2328036937d/public_url"
+  // },
   {
-    id: "cert-ibm-ai",
-    title: "Make Agentic AI Work for You",
-    issuer: "IBM SkillsBuild",
+    id: "cert-cognitiveClass-python-for-data-science-101",
+    title: "Python 101 for Data Science",
+    issuer: "Cognitive Class",
     date: "2026",
-    credentialId: "PWID-B1039700",
-    skills: ["AI Agents", "Generative AI", "RAG", "AI Prompting Techniques"],
-    verificationUrl: "https://www.credly.com/badges/65279f45-8927-48e4-bcb2-a2328036937d/public_url"
-  }
+    credentialId: "6591fa92bd0a47fa889aacdce9c0fb89",
+    skills: ["Data Structures", "NumPy", "API", "Python","Pandas"],
+    verificationUrl: "https://courses.cognitiveclass.ai/certificates/6591fa92bd0a47fa889aacdce9c0fb89"
+  },
+  {
+    id: "cert-cognitiveClass-prompt-engineering-for-everyone",
+    title: "Prompt Engineering for Everyone",
+    issuer: "Cognitive Class",
+    date: "2026",
+    credentialId: "f436f56827b94edab1148680defbfc6c",
+    skills: ["Prompt Design", "Chain-of_Thought", "LLM Reasoning", "Prompt Optimization"],
+    verificationUrl: "https://courses.cognitiveclass.ai/certificates/f436f56827b94edab1148680defbfc6c"
+  },
+  {
+    id: "cert-cognitiveClass-SQL-and-Relational-Databases-101",
+    title: "SQL and Relational Databases 101",
+    issuer: "Cognitive Class",
+    date: "2026",
+    credentialId: "ada762c09eaa4b77b6e076cc66ca7159",
+    skills: ["SQL", "Relational Databases", "Data Modeling", "ER Modeling"],
+    verificationUrl: "https://courses.cognitiveclass.ai/certificates/ada762c09eaa4b77b6e076cc66ca7159"
+  },
+  {
+    id: "cert-cognitiveClass-Introduction-to-Cloud",
+    title: "Introduction to Cloud",
+    issuer: "Cognitive Class",
+    date: "2026",
+    credentialId: "b172765e137442908970c5eb3c1cb8df",
+    skills: ["Cloud Fundamentals", "Cloud Computing", "Containerization","Virtualization","Cloud Storage"],
+    verificationUrl: "https://courses.cognitiveclass.ai/certificates/b172765e137442908970c5eb3c1cb8df"
+  },
+  // badge2
+  // {
+  //   id: "cert-PMI-Fundamentals-of-Agile-Project-Management",
+  //   title: "Fundamentals of Agile Project Management",
+  //   issuer: "Project Management Institute",
+  //   date: "2026",
+  //   credentialId: "f436f56827b94edab1148680defbfc6c",
+  //   skills: ["Agile Methodologies", "Scrum", "Product Planning"],
+  //   verificationUrl: "https://www.credly.com/badges/d9233626-606d-4aa0-816b-d219a1a22b68/linked_in_profile"
+  // }
 ];
 
 export interface TechItem {
